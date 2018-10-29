@@ -1,14 +1,14 @@
 # ChitterProject
 
 ## Members ##
-Charley
-Yannis
-Tu
+* Charley
+* Yannis
+* Tu
 
 ## Technology ##
-HTML
-CSS
-Javascript
-Ruby
-SQL
-Postgres
+* HTML
+* CSS
+* Javascript
+* Ruby
+* SQL
+* Postgres
