@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-size: 14px;
+    color: rgb(31, 29, 29);
+    font-family: Verdana;
+    font-weight: 300;
+}
+
+.sign-up-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+input[type = "text"],
+input[type= "password"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom:  solid #bbb;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+input[type = "submit"]
+{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #6ec7f7;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: Arial;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease
+}

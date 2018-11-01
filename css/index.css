@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a8cefff6;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+    position: fixed;
+    top: 37%;
+    left: 35%;
+}
+
+p,a,h1,h2,h3,li, span {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.sign_up{
+    display: inline-block;
+    margin: auto;
+    font-family: helvetica;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 120px;
+    height: 50px;
+    border-radius: 40px;
+    Line-height: 50px;
+    text-align: center;
+
+    background: rgba(255,255,255);
+    border: 3px solid #ffffff;
+    text-decoration: none;
+    color: #a8cefff6;
+
+    position: fixed;
+    top: 60%;
+    left: 40%;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.sign_in{
+    display: inline-block;
+    margin: auto;
+    font-family: helvetica;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 120px;
+    height: 50px;
+    border-radius: 40px;
+    Line-height: 50px;
+    text-align: center;
+
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.left ul li{
+    list-style-type: none;
+    font-size: 24px;
+}
