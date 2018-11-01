@@ -3,14 +3,14 @@
 <!-- <a href = '/peeps/new'>New peeps</a> -->
 
 <div class="login-page">
-  <link rel="stylesheet" type="text/css" href="index.css">.
+  <!--<link rel="stylesheet" type="text/css" href="index.css">.-->
   <div class="form">
     <h1><center>Welcome to Chitter!!!!<center></h>
-    <form class="register-form">
-      <input type="text" placeholder="name"/>
-      <input type="password" placeholder="password"/>
-      <input type="text" placeholder="email address"/>
-      <button>create</button>
+    <form action ='/' method ='post'>
+      <input type="text" name = 'name' placeholder="Name"/>
+      <input type="password" name = 'password' placeholder="Password"/>
+      <input type="text" name = 'email' placeholder="Email Address"/>
+      <input type = 'submit' value 'Submit' />
       <p class="message">Already registered? <a href="login">Sign In</a></p>
     </form>
   </div>
