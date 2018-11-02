@@ -3,10 +3,10 @@ require 'pg'
 class Details
   attr_reader :id, :name, :password, :email
 
-  def initialize(id:, name:, passowrd:, email:)
+  def initialize(id:, name:, password:, email:)
     @id = id
     @name = name
-    @passowrd = password
+    @password = password
     @email = email
   end
 

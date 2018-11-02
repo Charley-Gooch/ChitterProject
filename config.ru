@@ -1,3 +1,3 @@
 require_relative "./app/app"
-use Rack :: MethodOverride
+use Rack::MethodOverride
 run Chitter
