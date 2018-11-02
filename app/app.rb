@@ -6,7 +6,10 @@ class Chitter < Sinatra::Base
   enable :method_override
   set :method_override, true
 
-  get '/' do
+  # get '/' do
+  #   erb :indexx
+  # end
+  get '/index' do
     erb :index
   end
 
@@ -14,9 +17,9 @@ class Chitter < Sinatra::Base
     erb :login
   end
 
-  post '/' do
+  post '/index' do
     Details.create(name: params[:name], password: params[:password], email: params[:email])
-    redirect '/'
+    redirect '/index'
   end
 
   run if app_file == $0
